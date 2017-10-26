@@ -63,36 +63,28 @@ footer {
 @media screen and (min-width: 768px)and (max-width:979px) {
 
     /* float flow */
-    .img-float {
-        width: 50%;
-        float: left;
-    }
+    .img-float,
     .text-float {
         width: 50%;
         float: left;
     }
-
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 980px) {
 
     /* float flow */
     .main-float {
         overflow: auto;
     }
-    .section-float {
-        width: 50%;
-        float: left;
-    }
+    .section-float,
     .aside-float {
         width: 50%;
         float: left;
     }
-    .img-float {
-        width: 25%;
-        float: left;
-    }
+
+    .img-float,
     .text-float {
         width: 25%;
         float: left;
     }
+}
