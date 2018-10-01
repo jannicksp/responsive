@@ -48,7 +48,7 @@ section section {
     background-color: yellow;
 }
 
-aside {
+aside, .text-float {
     background-color: orange;
 }
 
@@ -60,29 +60,27 @@ footer {
     clear: both;
 }
 
+/* Media query for medium sizes screens */
 @media screen and (min-width: 768px)and (max-width:979px) {
 
-    /* float flow */
-    .img-float,
+    .imege-float,
     .text-float {
         width: 50%;
         float: left;
     }
 }
 
+/* Media query for anything above 980px */
 @media screen and (min-width: 980px) {
 
-    /* float flow */
-    .main-float {
-        overflow: auto;
-    }
+   
     .section-float,
     .aside-float {
         width: 50%;
         float: left;
     }
 
-    .img-float,
+    .image-float,
     .text-float {
         width: 25%;
         float: left;
