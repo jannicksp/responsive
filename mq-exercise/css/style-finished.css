@@ -63,7 +63,7 @@ footer {
 /* Media query for small to medium sizes screens */
 @media screen and (min-width: 768px)and (max-width:979px) {
 
-    .imege-float,
+    .image-float,
     .text-float {
         width: 50%;
         float: left;
